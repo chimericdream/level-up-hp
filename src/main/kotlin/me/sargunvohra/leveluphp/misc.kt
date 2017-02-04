@@ -5,7 +5,7 @@ import net.minecraft.util.ResourceLocation
 import net.minecraft.util.SoundEvent
 import net.minecraft.util.text.TextComponentString
 
-fun EntityPlayer.sendStatusMsg(message: String) = sendStatusMessage(TextComponentString(message), true)
+fun EntityPlayer.sendStatusMsg(message: String) = sendStatusMessage(TextComponentString(message))
 
 object LuhpSounds {
     val levelUpLoc = ResourceLocation("leveluphp", "level-up")

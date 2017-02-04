@@ -89,7 +89,7 @@ tasks.setupDevWorkspace.dependsOn installMods
 
 dependencies {
     // developer world
-    mods group: 'com.fireball1725.devworld', name: 'devworld', version: "${mc_version}-${devworld_version}-client"
+    mods group: 'com.fireball1725.devworld', name: 'devworld', version: "${devworld_version}-client"
 
     // jei
     deobfCompile "mezz.jei:jei_${mc_version}:${jei_version}:api"

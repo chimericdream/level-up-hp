@@ -19,12 +19,12 @@ import net.minecraftforge.fml.common.registry.IForgeRegistryEntry
 
 
 const val MOD_ID = "leveluphp"
-const val VERSION = "1.0.1"
+const val VERSION = "1.0.1-1.10.2"
 
 @Mod(
         modid = MOD_ID,
         version = VERSION,
-        dependencies = "required-after:shadowmc@[3.7.1,);",
+        dependencies = "required-after:shadowmc@[3.6.1,);",
         modLanguageAdapter = "net.shadowfacts.forgelin.KotlinAdapter",
         guiFactory = "me.sargunvohra.leveluphp.LevelUpHpConfigGuiFactory")
 object LevelUpHpMod {
